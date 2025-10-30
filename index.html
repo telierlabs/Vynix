@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VYNIX | AI-Powered Cinematic Dashboard</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/ai.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">VYNIX_AI</div>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="subscribe.html">Subscription</a>
+            <a href="login.html" class="btn">Login</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <p class="ai-status">_SYSTEM_ONLINE_ | AI Model V2.1 Active | Latency: 4ms</p>
+
+        <section class="hero-ai-focus">
+            <h1>The Future of Viewing: **Personalized by VYNIX AI**</h1>
+            <p>Our proprietary AI delivers the perfect cinematic recommendation, *every time*.</p>
+            <a href="#" id="explore-btn" class="btn">Explore AI Recommendations</a>
+        </section>
+
+        <section class="ai-recommendations">
+            <h2 class="ai-recommendation-title">>> AI_RECOMMENDATION_MATRIX // TOP_PICKS_FOR_YOU</h2>
+            <div id="movie-list" class="movie-grid">
+                <div class="ai-grid-item">Loading AI Data...</div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/ui.js"></script>
+    <script src="scripts/ai.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
