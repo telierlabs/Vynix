@@ -1,0 +1,22 @@
+/* Styling Responsif Minimalis */
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar nav {
+        margin-top: 10px;
+    }
+    .navbar nav a {
+        margin: 0 5px;
+    }
+    
+    .movie-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .player-main {
+        max-width: 100%;
+        margin: 20px auto;
+    }
+}
