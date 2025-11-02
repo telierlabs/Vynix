@@ -1,0 +1,10 @@
+/* css/footer.css */
+footer {
+    background-color: var(--secondary-bg);
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #666;
+    margin-top: 2rem;
+    border-top: 1px solid var(--separator-color);
+}
+/* ... Lanjutkan dengan style footer lainnya ... */
