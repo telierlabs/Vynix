@@ -1,0 +1,30 @@
+/* style.css - Global Reset dan Variabel (Di folder vynix-project/) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --primary-bg: #000000;
+    --secondary-bg: #111111;
+    --accent-color: #c0c0c0; /* Warna utama (Silver) */
+    --text-color: #e0e0e0;
+    --card-bg: #1a1a1a;
+    --hover-color: #333333;
+    --success-color: #4ade80;
+    --separator-color: #444444;
+    --premium-color: #ffaa00; 
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+.main-container {
+    min-height: calc(100vh - 160px);
+}
+/* Tambahkan sisa style global Anda di sini */
