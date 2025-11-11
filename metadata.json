@@ -1,0 +1,5 @@
+{
+  "name": "Vynix Movie Streaming",
+  "description": "A professional, Netflix-inspired movie streaming platform with user profiles, favorites, language settings (EN/ID), and an integrated AI assistant. Features include advanced browsing with sorting/filtering, detailed movie info pages, a YouTube-style watch page, and flexible subscription plans.",
+  "requestFramePermissions": []
+}
