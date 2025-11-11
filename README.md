@@ -1,2 +1,0 @@
-# Vynix
-Streaming film AI
